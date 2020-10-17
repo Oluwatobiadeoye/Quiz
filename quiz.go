@@ -54,7 +54,7 @@ func main() {
 
 outer:
 	for _, currentQuiz := range quizzes {
-		fmt.Printf("What is the value of %s \n", currentQuiz.Question)
+		fmt.Println(currentQuiz.Question)
 		go ReadAnswer()
 			select {
 				case <- timeout:
