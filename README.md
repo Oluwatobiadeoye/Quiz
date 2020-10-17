@@ -1,5 +1,5 @@
 # Quiz
-This is a basic quiz app that helps that lets you answer questions within a time frame and prints your score at the end.
+This is a basic quiz app that lets you answer questions from a csv file within a time frame and prints your score at the end.
 
 ## How to use
 * Make sure you have Golang installed on your machine. 
