@@ -21,7 +21,7 @@ var (
 )
 
 func init() {
-	flag.StringVar(&fileName, "file-location", "problems.csv", "The path the file where questions are loaded")
+	flag.StringVar(&fileName, "file-location", "problems.csv", "The path the file where questions are loaded. Must be a valid csv file")
 	flag.IntVar(&quizDuration, "duration", 30, "The duration of the quiz in seconds")
 	flag.Parse()
 }
